@@ -1,5 +1,5 @@
 {
-  "setup": "chmod +x ./check_logic/setup.sh ./check_logic/setup.sh",
+  "setup": "chmod +x ./check_logic/setup.sh; ./check_logic/setup.sh",
   "assignment": {
     "title": "Version Tracking, HTML & CSS",
     "description": "Send us the link with the repository with your work for today to see whether you reached all learning goals! We'll be checking your detail-page for the following things:",
