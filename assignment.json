@@ -1,0 +1,106 @@
+{
+  "setup": "chmod +x ./check_logic/setup.sh ./check_logic/setup.sh",
+  "assignment": {
+    "title": "Version Tracking, HTML & CSS",
+    "description": "Send us the link with the repository with your work for today to see whether you reached all learning goals! We'll be checking your detail-page for the following things:",
+    "score": "",
+    "learningGoals": [
+      {
+        "goal": "Implement basic principles of clean coding in your app",
+        "score": 0,
+        "laws": [
+          {
+            "description": "Code is properly indented",
+            "test": "node check_logic/tests/ccIndent.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "HTML passes all validation rules",
+            "test": "node check_logic/tests/ccHTML.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "CSS passes all validation rules",
+            "test": "node check_logic/tests/ccCSS.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "Javasript passes all validation rules",
+            "test": "echo 'HAALLO'",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "Javasript is written in a separate file and import in `detail-page.html`",
+            "test": "echo 'HAALLO'",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      },
+      {
+        "goal": "Implement DOM-methods to find, create and display DOM-elements",
+        "score": 0,
+        "laws": [
+          {
+            "description": "Find: `document.getElementById()` or `document.querySelector()` is being called",
+            "test": "yarn jest check_logic/tests/domFindElement.test.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "Create: `document.createElement()` is being called",
+            "test": "yarn jest check_logic/tests/domCreateElement.test.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "Display: `appendChild()` is being called",
+            "test": "yarn jest check_logic/tests/domAppendChild.test.js",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      },
+      {
+        "goal": "Assign `event-handlers` to a specific `event-listener` of  a specific html element",
+        "score": 0,
+        "laws": [
+          {
+            "description": "Code is properly indented",
+            "test": "yarn jest check_logic/tests/eventHandlers",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      },
+      {
+        "goal": "Gather user data through a form and display it on the page",
+        "score": 0,
+        "laws": [
+          {
+            "description": "When adding a comment it displays on the page",
+            "test": "yarn jest check_logic/tests/formInput",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      },
+      {
+        "goal": "Use javascript functions to prevent users from submitting forms with invalid data",
+        "score": 0,
+        "laws": [
+          {
+            "description": "When adding a comment it displays on the page",
+            "test": "yarn jest check_logic/tests/formInput",
+            "status": "Broken",
+            "shellOutput": ""
+          }
+        ]
+      }
+    ]
+  }
+}
