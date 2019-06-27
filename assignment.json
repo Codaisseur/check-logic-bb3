@@ -1,7 +1,7 @@
 {
   "setup": "chmod +x ./check_logic/setup.sh; ./check_logic/setup.sh",
   "assignment": {
-    "title": "Version Tracking, HTML & CSS",
+    "title": "User Input & the DOM",
     "description": "Send us the link with the repository with your work for today to see whether you reached all learning goals! We'll be checking your detail-page for the following things:",
     "score": "",
     "learningGoals": [
@@ -34,7 +34,7 @@
             "shellOutput": ""
           },
           {
-            "description": "Javasript is written in a separate file and import in `detail-page.html`",
+            "description": "Javasript is written in a separate file and imported in `detail-page.html`",
             "test": "echo 'HAALLO'",
             "status": "Broken",
             "shellOutput": ""
