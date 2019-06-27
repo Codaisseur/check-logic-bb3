@@ -10,12 +10,6 @@
         "score": 0,
         "laws": [
           {
-            "description": "Code is properly indented",
-            "test": "node check_logic/tests/ccIndent.js",
-            "status": "Broken",
-            "shellOutput": ""
-          },
-          {
             "description": "HTML passes all validation rules",
             "test": "node check_logic/tests/ccHTML.js",
             "status": "Broken",
@@ -29,7 +23,7 @@
           },
           {
             "description": "Javasript passes all validation rules",
-            "test": "echo 'HAALLO'",
+            "test": "yarn eslint .",
             "status": "Broken",
             "shellOutput": ""
           },
