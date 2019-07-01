@@ -9,4 +9,5 @@ Scenario('A comment without name is not displayed', (I) => {
   I.click('Post your comment')
   I.acceptPopup()
   I.dontSee('IAmVeryUnique', '.comment')
+  reloadPage()
 });
