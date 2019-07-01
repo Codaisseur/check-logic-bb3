@@ -22,8 +22,8 @@
             "shellOutput": ""
           },
           {
-            "description": "Javasript passes all validation rules",
-            "test": "yarn eslint .",
+            "description": "Javasript is properly indented",
+            "test": "node check_logic/tests/checkIndentation.js",
             "status": "Broken",
             "shellOutput": ""
           },

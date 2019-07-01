@@ -26,14 +26,13 @@ stylelint.lint({
   files: '.'
 })
   .then(function (data) {
-    console.log('\n\n\nDATA & ERRORED?', data, data.errored)
     if (data.errored) {
       const output = JSON.parse(data.output)
 
       output.map(res => {
         if (res.warnings.length > 0) {
-          console.log(`Error at ${formatSourceName(res.source)}`)
-          res.warnings.map(warning => console.log(`${warning.text}`))
+          console.log(`\n\nError at ${formatSourceName(res.source)}\n`)
+          res.warnings.map(warning => console.log(`${warning.text}\n`))
         }
       })
     } else {
