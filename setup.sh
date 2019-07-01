@@ -1,5 +1,5 @@
 yarn init -y; 
-yarn add html5-validator stylelint codeceptjs puppeteer eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node; 
+yarn add html5-validator stylelint jest codeceptjs puppeteer eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node; 
 touch .stylelintIgnore; 
 touch .stylelintrc.json;
 touch .eslintrc;
