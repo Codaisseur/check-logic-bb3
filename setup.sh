@@ -21,5 +21,5 @@ codeceptjs.conf.js
 steps_file.js' >> .eslintignore
 
 echo 'module.exports = {preset: "jest-puppeteer"}' >> jest.config.js;
-echo "exports.config = {tests: './check_logic/tests/codeceptjs/*.test.js', output: './output', helpers: { Puppeteer: { url: 'http://localhost' }}, include: { I: './steps_file.js' }, bootstrap: null, mocha: {}, name: 'bb-day-3'}" >> codecept.conf.js
+echo "exports.config = { tests: './check_logic/tests/codeceptjs/*.test.js', output: './output', helpers: { Puppeteer: { url: 'http://localhost', chrome:{args: ['--no-sandbox']} }}, include: { I: './steps_file.js' }, bootstrap: null, mocha: {}, name: 'bb-day-3'}" >> codecept.conf.js
 echo 'module.exports = function() {return actor({});}' >> steps_file.js
