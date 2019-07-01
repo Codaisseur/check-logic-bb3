@@ -72,18 +72,6 @@
         ]
       },
       {
-        "goal": "Assign `event-handlers` to a specific `event-listener` of  a specific html element",
-        "score": 0,
-        "laws": [
-          {
-            "description": "Code is properly indented",
-            "test": "echo 'Hello'",
-            "status": "Broken",
-            "shellOutput": ""
-          }
-        ]
-      },
-      {
         "goal": "Gather user data through a form and display it on the page",
         "score": 0,
         "laws": [
@@ -100,8 +88,14 @@
         "score": 0,
         "laws": [
           {
-            "description": "TODO",
-            "test": "echo 'HELLO'",
+            "description": "A message without a name won't be displayed",
+            "test": "yarn codeceptjs run --steps  check_logic/tests/codeceptjs/noAnonymousComments.test.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "A message without a name won't be displayed",
+            "test": "yarn codeceptjs run --steps  check_logic/tests/codeceptjs/noEmptyComments.test.js",
             "status": "Broken",
             "shellOutput": ""
           }
