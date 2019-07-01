@@ -7,6 +7,6 @@ Scenario('A comment without name is not displayed', (I) => {
   I.amOnPage(`file://${pwd}/pages/detail-page.html`);
   I.fillField('Message', 'IAmVeryUnique')
   I.click('Post your comment')
-  I.cancelPopup()
+  I.acceptPopup()
   I.dontSee('IAmVeryUnique', '.comment')
 });
