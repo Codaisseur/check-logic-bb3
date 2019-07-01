@@ -88,8 +88,8 @@
         "score": 0,
         "laws": [
           {
-            "description": "When adding a comment it displays on the page",
-            "test": "yarn jest check_logic/tests/formInput",
+            "description": "TODO",
+            "test": "echo 'HELLO'",
             "status": "Broken",
             "shellOutput": ""
           }
