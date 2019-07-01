@@ -40,7 +40,7 @@
             "shellOutput": ""
           },
           {
-            "description": "Javasript is written in a separate file and imported in `detail-page.html`",
+            "description": "Javascript is written in a separate file and imported in `detail-page.html`",
             "test": "node check_logic/tests/ccJSIsSeparate.js",
             "status": "Broken",
             "shellOutput": ""
