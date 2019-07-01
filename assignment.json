@@ -28,6 +28,18 @@
             "shellOutput": ""
           },
           {
+            "description": "`var` keyword is not used",
+            "test": "check_logic/tests/checkUseOfVar.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
+            "description": "No unused variables",
+            "test": "node check_logic/tests/checkUnusedVars.js",
+            "status": "Broken",
+            "shellOutput": ""
+          },
+          {
             "description": "Javasript is written in a separate file and imported in `detail-page.html`",
             "test": "node check_logic/tests/ccJSIsSeparate.js",
             "status": "Broken",
