@@ -23,7 +23,7 @@ stylelint.lint({
       'no-extra-semicolons': true
     }
   },
-  files: '.'
+  files: '**/*.css'
 })
   .then(function (data) {
     if (data.errored) {

@@ -29,7 +29,7 @@
           },
           {
             "description": "`var` keyword is not used",
-            "test": "check_logic/tests/checkUseOfVar.js",
+            "test": "node check_logic/tests/checkUseOfVar.js",
             "status": "Broken",
             "shellOutput": ""
           },
