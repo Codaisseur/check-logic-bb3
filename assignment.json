@@ -88,13 +88,13 @@
         "score": 0,
         "laws": [
           {
-            "description": "A message without a name won't be displayed",
+            "description": "A comment without a name won't be displayed",
             "test": "yarn codeceptjs run --steps  check_logic/tests/codeceptjs/noAnonymousComments.test.js",
             "status": "Broken",
             "shellOutput": ""
           },
           {
-            "description": "A message without a name won't be displayed",
+            "description": "A comment without message will not be displayed",
             "test": "yarn codeceptjs run --steps  check_logic/tests/codeceptjs/noEmptyComments.test.js",
             "status": "Broken",
             "shellOutput": ""
